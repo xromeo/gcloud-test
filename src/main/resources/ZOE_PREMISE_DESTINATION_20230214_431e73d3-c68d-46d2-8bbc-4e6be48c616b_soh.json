@@ -1,0 +1,1 @@
+{"tenant":"RED","source":"soh-bapi","siteCode":"PREMISE_DESTINATION","date":"2023-02-14","soh":[{"sku":"someSku","qty":10},{"sku":"someNegativeSku","qty":-10}]}

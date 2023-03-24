@@ -1,0 +1,50 @@
+{
+  "type": "record",
+  "name": "StockOnHandNotification",
+  "namespace": "gcloud.pubsub",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "tenant",
+      "type": "string"
+    },
+    {
+      "name": "siteCode",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "long"
+    },
+    {
+      "name": "fileName",
+      "type": "string"
+    },
+    {
+      "name": "source",
+      "type": "string"
+    },
+    {
+      "name": "numberElements",
+      "type": "int"
+    },
+    {
+      "name": "status",
+      "type": {
+        "type": "enum",
+        "name": "StatusType",
+        "symbols": [
+          "STARTED",
+          "FINISHED",
+          "ABORTED",
+          "FAILED"
+        ]
+      }
+    }
+  ]
+}
+
+

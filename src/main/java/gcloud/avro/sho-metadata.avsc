@@ -1,0 +1,247 @@
+{
+  "type": "record",
+  "name": "StockOnHandMetadata",
+  "namespace": "gcloud.pubsub",
+  "fields": [
+    {
+      "name": "_id",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHQTY",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SOHQTY_SF",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SOHQTY_SR",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SOHHoldArea",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SOHInTransitQTY",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SOHStoreInProcess",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SOHDate",
+      "type": "long"
+    },
+    {
+      "name": "Retail_SOHSKU",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHPrice",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHStoreNumber",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHDepositCode",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHDateString",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHDepositName",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHReceiptID",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHCurrency",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHClearance",
+      "type": "boolean"
+    },
+    {
+      "name": "Retail_SKU",
+      "type": "string"
+    },
+    {
+      "name": "Retail_QTY",
+      "type": "int"
+    },
+    {
+      "name": "Retail_QTY_SF",
+      "type": "int"
+    },
+    {
+      "name": "Retail_QTY_SR",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SFMin",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SFMax",
+      "type": "int"
+    },
+    {
+      "name": "Retail_StoreNumber",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Sequence",
+      "type": "long"
+    },
+    {
+      "name": "Retail_QTY_Match",
+      "type": "boolean"
+    },
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_SKU",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Brand",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Price",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Color",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_ImageURL",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Size",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Style",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level1Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level2Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level3Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level4Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level5Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level1",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level2",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level3",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level4",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level5",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_RFIDTagged",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_UOM",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Dimension",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_UPCNumber",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_UPC",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_UPCs",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_ExternalSKU",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Manufacturer",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Mate_Bundle",
+      "type": "int"
+    },
+    {
+      "name": "Retail_Product_VPN",
+      "type": "string"
+    },
+    {
+      "name": "Rule",
+      "type": "string"
+    },
+    {
+      "name": "tsCoreIn",
+      "type": "long"
+    },
+    {
+      "name": "tsEdgeIn",
+      "type": "long"
+    },
+    {
+      "name": "tsMongoIn",
+      "type": "long"
+    },
+    {
+      "name": "source",
+      "type": "string"
+    }
+  ]
+}
